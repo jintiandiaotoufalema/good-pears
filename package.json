@@ -1,0 +1,48 @@
+{
+  "name": "good-pears",
+  "version": "1.0.0",
+  "description": "一个不错的组件与功能库 | A good component and function library",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node .webpack/dev.command.js",
+    "doc": "jsdoc -c jsdoc.json",
+    "tree": "treer  -i '/node_modules|dist|.git|jsdoc.json|docs|tutorials|.DS_Store/'",
+    "build": "node .webpack/build.command.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jintiandiaotoufalema/good-pears.git"
+  },
+  "keywords": [
+    "mouse",
+    "wheel",
+    "scale",
+    "trackpad",
+    "component",
+    "ui"
+  ],
+  "author": "iktsuarpok",
+  "license": "MIT",
+  "dependencies": {
+    "clean-jsdoc-theme": "^4.1.8",
+    "g": "^2.0.1",
+    "html-loader": "^4.2.0",
+    "jquery": "^3.6.1",
+    "jsdoc": "^3.6.11",
+    "node-sass": "^8.0.0",
+    "pears-event-manager": "^1.0.0",
+    "webpack": "^5.74.0",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "devDependencies": {
+    "css-loader": "^6.7.2",
+    "html-webpack-plugin": "^5.5.0",
+    "jsdoc": "^3.6.11",
+    "sass-loader": "^13.2.0",
+    "style-loader": "^3.3.1"
+  },
+  "bugs": {
+    "url": "https://github.com/jintiandiaotoufalema/good-pears/issues"
+  },
+  "homepage": "https://github.com/jintiandiaotoufalema/good-pears#readme"
+}
