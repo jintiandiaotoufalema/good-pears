@@ -1,5 +1,5 @@
 import jQuery from "jquery";
-import { eventThrottle } from "./throttle";
+import { eventThrottle } from "./Throttle";
 
 /**
  * @typedef {(this: MouseCapture, event: MouseEvent, target: Element)=>} MouseCaptureEvent 鼠标事件 

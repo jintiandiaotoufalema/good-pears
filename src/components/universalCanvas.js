@@ -1,5 +1,5 @@
 import jQuery from 'jquery';
-import { eventThrottle } from './throttle';
+import { eventThrottle } from './Throttle';
 
 /**
  * 支持移动和缩放的通用万向画布<br>

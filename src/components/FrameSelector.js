@@ -1,5 +1,5 @@
 import jQuery from "jquery";
-import { eventThrottle } from "./throttle";
+import { eventThrottle } from "./Throttle";
 
 /**
  * @typedef {object} FrameSelectorRulesUnit
