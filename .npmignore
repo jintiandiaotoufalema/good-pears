@@ -1,0 +1,8 @@
+docs
+dist
+node_modules
+.webpack
+.gitattributes
+.gitignore
+tutorial
+jsdoc.json

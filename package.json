@@ -1,8 +1,9 @@
 {
   "name": "good-pears",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "一个不错的组件与功能库 | A good component and function library",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "dev": "node .webpack/dev.command.js",
     "doc": "jsdoc -c jsdoc.json",
@@ -24,19 +25,19 @@
   "author": "iktsuarpok",
   "license": "MIT",
   "dependencies": {
-    "clean-jsdoc-theme": "^4.1.8",
     "g": "^2.0.1",
-    "html-loader": "^4.2.0",
-    "jquery": "^3.6.1",
-    "node-sass": "^8.0.0"
+    "jquery": "^3.6.1"
   },
   "devDependencies": {
+    "html-loader": "^4.2.0",
+    "clean-jsdoc-theme": "^4.1.8",
     "css-loader": "^6.7.2",
     "html-webpack-plugin": "^5.5.0",
     "jsdoc": "^3.6.11",
     "sass-loader": "^13.2.0",
     "style-loader": "^3.3.1",
     "webpack": "^5.74.0",
+    "sass": "^1.56.2",
     "webpack-dev-server": "^4.11.1"
   },
   "bugs": {

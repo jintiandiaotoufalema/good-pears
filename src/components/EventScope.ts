@@ -2,6 +2,12 @@
  * @typedef {(this: any, dataFromScope: any, ...args)=>} EventScopeEvent
  */
 
+// declare function EventScopeEvent(
+//     this: any,
+//     dataFromScope: any,
+//     ...arg: any
+// )
+
 
 /**
  * EventScope规则
